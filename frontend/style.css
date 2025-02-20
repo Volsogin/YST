@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f8f9fa;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#saveButton {
+    background-color: #28a745;
+    color: white;
+}
+
+#loadButton {
+    background-color: #ffc107;
+    color: black;
+}
+
+#addRowsButton {
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+textarea {
+    width: 100%;
+    min-height: 30px;
+    max-height: 100px;
+    resize: vertical;
+    overflow: hidden;
+}
+
+input[type="text"] {
+    width: 20px;
+    text-align: center;
+}

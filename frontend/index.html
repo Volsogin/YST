@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ястароста - Учёт посещаемости</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ястароста - Учёт посещаемости</h1>
+
+    <button id="addRowButton">Добавить строку</button>
+    <button id="saveButton">Сохранить</button>
+    <input type="file" id="fileInput" accept=".json" style="display: none;">
+    <button id="loadButton" onclick="document.getElementById('fileInput').click()">Загрузить</button>
+
+    <table id="attendanceTable">
+        <thead>
+            <tr>
+                <th>Фамилия</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
